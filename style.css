@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,400;0,700;1,100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(32, 54, 75);
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 800px;
+}
+
+header{
+   width: 100vw;
+}
+
+.logo{
+    width: 7em;
+    margin: 10px;
+    position: relative;
+    display: inline-flex;
+    background-color: #3E6069;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.nav{
+    display: inline-flex;
+    position: absolute;
+    padding: 10px;
+    margin: 10px;
+}
+
+.nav > nav{
+    
+    display: inline-flex;
+    margin-left: 500px;
+    margin-top: 2px;
+    
+}
+
+nav > a{
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(237, 193, 60);
+    cursor: pointer;
+}
+
+nav > a:hover{
+    margin: 20px;
+    text-decoration: underline;
+    color: yellow;
+}
+div.search{
+    
+    display: inline-flex;
+    margin: 0px, 40px;
+}
+
+.search > input{
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    margin: 8px;
+    border-radius: 20px;
+}
+
+#icon_search{
+    border: 5px solid rgba(0, 0, 0, 0.226);
+    border-radius: 20px;
+    width: 50px;
+    height: auto;
+    padding: 8px;
+    background-color: rgb(237, 193, 60);  
+    cursor: pointer;   
+}
+
+#icon_search:hover{
+    background-color: rgb(255, 207, 61);
+}
+
+main{
+    
+    width: 100vw;
+    margin: auto;
+    padding: 20px;
+}
+
+main h1#sub{
+    font-size: 3em;
+    margin: 50px 0px 5px 0px;
+    color: rgb(237, 193, 60);
+}
+main h1#our{
+    font-size: 3em;
+    color: white;
+}
+
+.text{
+    display: flex;
+    width: 350px;
+    justify-content: center;
+}
+main p{
+    color: white;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 0px 40px;
+    text-align: center;
+}
+
+.main-img{
+    background-color: rgba(255, 255, 255, 0.055);
+    border-radius: 150px;
+    display: inline-flex;
+    position: relative;
+    margin-left: 480px;
+    margin-top: -430px;
+    
+}
+
+.main-img img{
+    width: 700px;
+    height: auto; 
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.button button{
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(237, 193, 60);
+    font-size: bolder;
+    margin: 5px;
+    border: 5px solid rgba(0, 0, 0, 0.192);
+}
+
+.button button:hover{
+    background-color: rgb(255, 207, 61);
+    cursor: pointer;
+}
+
+
+
